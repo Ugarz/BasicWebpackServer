@@ -5,10 +5,10 @@ require('./app.scss');
 
 class App extends Component {
   static propTypes = {
-    isAuth: PropTypes.string
+    isAuth: PropTypes.bool
   };
   static defaultProps = {
-    isAuth: "toto"
+    isAuth: false
   };
   componentDidMount() {
     console.log(this.props);

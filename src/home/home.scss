@@ -1,6 +1,11 @@
 .home{
 	display: flex;
 	flex-direction: row;
-	background-color: #EDECF9;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f6f8f9+0,d7dee3+100 */
+	background: #f6f8f9; /* Old browsers */
+	background: -moz-linear-gradient(45deg,  #f6f8f9 0%, #d7dee3 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(45deg,  #f6f8f9 0%,#d7dee3 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(45deg,  #f6f8f9 0%,#d7dee3 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6f8f9', endColorstr='#d7dee3',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 	height: 100vh;
 }
